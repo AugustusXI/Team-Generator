@@ -46,7 +46,7 @@ const createEngineer = (engineer) => {
       <p class="title is-4">${engineer.getName()} ID: ${engineer.getId()}</p>
       <p class="subtitle is-6"><a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></li></p>
       <p class="subtitle is-6">
-        Office Number:${engineer.getGithub()} </p>
+        GithubUsername:<a href="https://github.com/${engineer.getGithub()}">${engineer.getGithub()}</a> </p>
   </div>
 </div>
 `;
@@ -62,7 +62,7 @@ const createIntern = (intern) => {
       <p class="title is-4">${intern.getName()} ID: ${intern.getId()}</p>
       <p class="subtitle is-6"><a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a></li></p>
       <p class="subtitle is-6">
-        Office Number:${intern.getSchool()} </p>
+        School:${intern.getSchool()} </p>
   </div>
 </div>
 `;
