@@ -1,4 +1,4 @@
-const Employee = require("../dist/Employee");
+const Employee = require("../lib/Employee");
 describe("Employee", () => {
   describe("Employee", () => {
     it("should create a new employee", () => {

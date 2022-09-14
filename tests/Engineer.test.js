@@ -1,4 +1,4 @@
-const Engineer = require("../dist/Engineer");
+const Engineer = require("../lib/Engineer");
 describe("Engineer", () => {
   it("should create a new engineer", () => {
     const engineer = new Engineer();

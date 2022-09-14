@@ -1,4 +1,4 @@
-const Intern = require("../dist/Intern");
+const Intern = require("../lib/Intern");
 describe("Intern", () => {
   it("should create a new Intern", () => {
     const intern = new Intern();

@@ -1,7 +1,29 @@
 {
+  "name": "team-generator",
+  "version": "1.0.0",
+  "description": "[![license](https://img.shields.io/badge/license-MIT-blue)](https://shields.io)   ## Table of Contents    - [Description](#description)   - [Installation](#installation)   - [Usage](#usage)   - [Contribution](#contribution)   - [Testing](#testing)   - [Additional Info](#additional-info)   - [Screenshots] (#screenshots)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
   "dependencies": {
     "fs": "^0.0.1-security",
     "inquirer": "^8.0.0",
+    "jest": "^29.0.3",
     "path": "^0.12.7"
-  }
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AugustusXI/Team-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AugustusXI/Team-Generator/issues"
+  },
+  "homepage": "https://github.com/AugustusXI/Team-Generator#readme"
 }
